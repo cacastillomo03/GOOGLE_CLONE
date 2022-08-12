@@ -48,6 +48,7 @@ nav .nav-right-section .menu-icon{
     cursor: pointer;
 }
 
+
 nav .nav-right-section img{
     border-radius: 50%;
     margin-left: 08px;
@@ -69,6 +70,7 @@ nav .main-logo {
 }
 main .main-logo img{
     width: 500px;
+    
 }
 
 main .main-input{
@@ -143,5 +145,38 @@ main .main-bottons button:hover{
     box-shadow: 0 1px 1px #000001;
     cursor: pointer;
     color: #222;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #4e4e4e;
+
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+
 }
 
